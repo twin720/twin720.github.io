@@ -79,8 +79,10 @@ body {
     cursor: pointer; }
 
 .scroll-container {
+  position: absolute;
   width: 100%;
-  z-index: 1; }
+  z-index: 1;
+  height: 181.25vw; }
 
 .img01 {
   position: absolute;
@@ -257,17 +259,18 @@ body {
     z-index: 2;
     left: 17.8125vw;
     top: 3.125vw;
-    width: 76.5625vw;
-    height: 53.75vw;
-    line-height: 4.375vw;
-    font-size: 4.0625vw; }
+    width: 77.8125vw;
+    height: 48.75vw;
+    font-size: 4.0625vw;
+    line-height: 4.375vw; }
   .sto {
+    background-image: url(img/sto_sm.svg);
     position: absolute;
     z-index: 2;
     left: 2.5vw;
-    top: 49.84687vw;
+    top: 49.77188vw;
     width: 67.1875vw;
-    height: 28.425vw; }
+    height: 32.58125vw; }
   .logo-im {
     position: absolute;
     z-index: 2;
@@ -289,10 +292,10 @@ body {
     top: 118.07188vw;
     width: 22.13437vw;
     height: 22.6875vw; }
-  .img01,
+  .scroll-container {
+    height: 768.75vw; }
   .img04,
   .img08,
-  .img10,
   .img11,
   .img12,
   .img13 {
@@ -304,82 +307,97 @@ body {
     top: 93.125vw;
     width: 56.25vw;
     height: 56.25vw; }
+  .img01 {
+    position: absolute;
+    z-index: 2;
+    left: 33.125vw;
+    top: 152.8125vw;
+    width: 56.25vw;
+    height: 56.25vw; }
   .img03 {
     position: absolute;
     z-index: 2;
-    left: 30.99063vw;
-    top: 152.36875vw;
+    left: 17.8125vw;
+    top: 209.0625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img05 {
     position: absolute;
     z-index: 2;
     left: 0vw;
-    top: 224.24375vw;
+    top: 272.5vw;
+    width: 56.25vw;
+    height: 56.25vw;
+    z-index: 3; }
+  .img07 {
+    position: absolute;
+    z-index: 2;
+    left: 40.625vw;
+    top: 322.5vw;
+    width: 56.25vw;
+    height: 56.25vw; }
+  .img10 {
+    position: absolute;
+    z-index: 2;
+    left: 6.875vw;
+    top: 383.56875vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img06 {
     position: absolute;
     z-index: 2;
     left: 18.49063vw;
-    top: 399.24375vw;
-    width: 56.25vw;
-    height: 56.25vw; }
-  .img07 {
-    position: absolute;
-    z-index: 2;
-    left: 40.625vw;
-    top: 274.24375vw;
+    top: 439.81875vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img09 {
     position: absolute;
     z-index: 2;
     left: 6.25vw;
-    top: 333.61875vw;
+    top: 500.75625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img14 {
     position: absolute;
     z-index: 2;
     left: 33.275vw;
-    top: 458.48438vw;
+    top: 556.875vw;
+    width: 56.25vw;
+    height: 56.25vw; }
+  .img16 {
+    position: absolute;
+    z-index: 2;
+    left: 6.875vw;
+    top: 607.00625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img15 {
     position: absolute;
     z-index: 2;
     left: 43.75vw;
-    top: 574.24375vw;
-    width: 56.25vw;
-    height: 56.25vw; }
-  .img16 {
-    position: absolute;
-    z-index: 2;
-    left: 7.01563vw;
-    top: 508.61875vw;
+    top: 672.63125vw;
     width: 56.25vw;
     height: 56.25vw; }
   .insta {
     position: absolute;
     z-index: 2;
     left: 9.59688vw;
-    top: 636.65313vw;
+    top: 735.04375vw;
     width: 12.51562vw;
     height: 12.51562vw; }
   .vk {
     position: absolute;
     z-index: 2;
     left: 25.92813vw;
-    top: 642.90937vw;
+    top: 741.3vw;
     width: 12.51562vw;
     height: 12.51562vw;
-    margin-bottom: 15.2vw; }
+    margin-bottom: 14.93437vw; }
   .fb {
     position: absolute;
     z-index: 2;
     left: 40.52813vw;
-    top: 642.90937vw;
+    top: 741.3vw;
     width: 12.51562vw;
     height: 12.51562vw; } }
 

@@ -17,63 +17,57 @@ body {
   background-color: #FFFFFF;
   color: #000000; }
 
-.fixed {
-  z-index: 0;
-  position: fixed;
-  top: 0;
-  left: 0; }
-
 .friend {
   font-family: "fnt1";
   font-weight: normal;
-  position: absolute;
-  z-index: 2;
   left: 17.91667vw;
   top: 1.09375vw;
   width: 57.44792vw;
   height: 12.44792vw;
+  position: fixed;
+  z-index: 0;
   line-height: 1.92708vw;
   font-size: 1.77083vw; }
 
 .sto {
   background-image: url(img/sto.svg);
   background-repeat: no-repeat;
-  position: absolute;
-  z-index: 2;
   left: 2.28698vw;
   top: 11.59323vw;
   width: 40.21979vw;
-  height: 17.50677vw; }
+  height: 17.50677vw;
+  position: fixed;
+  z-index: 0; }
 
 .logo-im {
   background-image: url(img/logo_im.svg);
   background-repeat: no-repeat;
-  position: absolute;
-  z-index: 2;
   left: 83.21563vw;
   top: 21.00052vw;
   width: 7.07344vw;
-  height: 6.86354vw; }
+  height: 6.86354vw;
+  position: fixed;
+  z-index: 0; }
 
 .plus {
   background-image: url(img/plus.svg);
   background-repeat: no-repeat;
-  position: absolute;
-  z-index: 2;
   left: 84.23125vw;
   top: 29.69531vw;
   width: 5.0776vw;
-  height: 4.96823vw; }
+  height: 4.96823vw;
+  position: fixed;
+  z-index: 0; }
 
 .logo-dc {
-  position: absolute;
-  z-index: 2;
   left: 83.03802vw;
   top: 36.01146vw;
   width: 7.73125vw;
   height: 7.72552vw;
   background-image: url(img/logo_dc.svg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 0; }
   .logo-dc:hover {
     background-image: url(img/logo_dc_hover.svg);
     cursor: pointer; }
@@ -81,182 +75,181 @@ body {
 .scroll-container {
   position: absolute;
   width: 100%;
-  z-index: 1;
-  height: 181.25vw; }
+  z-index: 0;
+  height: 181.25vw;
+  background-color: transparent; }
 
 .img01 {
-  position: absolute;
-  z-index: 2;
   left: 47.8125vw;
   top: 23.95833vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img02 {
-  position: absolute;
-  z-index: 2;
   left: 2.19531vw;
   top: 36.79375vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img03 {
-  position: absolute;
-  z-index: 2;
   left: 22.63021vw;
   top: 40.15625vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img04 {
-  position: absolute;
-  z-index: 2;
   left: 64.28385vw;
   top: 52.59479vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img05 {
-  position: absolute;
-  z-index: 2;
   left: 36.53229vw;
   top: 66.49635vw;
   width: 21.875vw;
   height: 21.875vw;
-  z-index: 3; }
+  position: absolute;
+  z-index: 1;
+  z-index: 2; }
 
 .img06 {
-  position: absolute;
-  z-index: 2;
   left: 9.51198vw;
   top: 74.54531vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img07 {
-  position: absolute;
-  z-index: 2;
   left: 75.99062vw;
   top: 78.20365vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img08 {
-  position: absolute;
-  z-index: 2;
   left: 51.84531vw;
   top: 81.13021vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img09 {
-  position: absolute;
-  z-index: 2;
   left: 1.46354vw;
   top: 97.95885vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img10 {
-  position: absolute;
-  z-index: 2;
   left: 56.23542vw;
   top: 108.2026vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img11 {
-  position: absolute;
-  z-index: 2;
   left: 29.2151vw;
   top: 109.66615vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img12 {
-  position: absolute;
-  z-index: 2;
   left: 76.7224vw;
   top: 114.05625vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img13 {
-  position: absolute;
-  z-index: 2;
   left: 48.18698vw;
   top: 135.275vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img14 {
-  position: absolute;
-  z-index: 2;
   left: 5.85365vw;
   top: 136.73802vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img15 {
-  position: absolute;
-  z-index: 2;
   left: 72.48802vw;
   top: 151.37187vw;
   width: 21.875vw;
-  height: 21.875vw; }
+  height: 21.875vw;
+  position: absolute;
+  z-index: 1; }
 
 .img16 {
-  position: absolute;
-  z-index: 2;
   left: 35.48854vw;
   top: 157.13542vw;
   width: 21.875vw;
   height: 21.875vw;
+  position: absolute;
+  z-index: 1;
   margin-bottom: 2.23958vw; }
 
 .insta {
-  position: absolute;
-  z-index: 2;
   left: 12.39583vw;
   top: 169.94792vw;
   width: 4.3901vw;
   height: 4.3901vw;
   background-image: url(img/insta_w.svg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1; }
   .insta:hover {
     background-image: url(img/insta_b.svg);
     cursor: pointer; }
 
 .vk {
-  position: absolute;
-  z-index: 2;
   left: 18.12396vw;
   top: 172.14323vw;
   width: 4.3901vw;
   height: 4.3901vw;
   background-image: url(img/vk_w.svg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1; }
   .vk:hover {
     background-image: url(img/vk_b.svg);
     cursor: pointer; }
 
 .fb {
-  position: absolute;
-  z-index: 2;
   left: 23.24583vw;
   top: 172.14323vw;
   width: 4.3901vw;
   height: 4.3901vw;
   background-image: url(img/fb_w.svg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1; }
   .fb:hover {
     background-image: url(img/fb_b.svg);
     cursor: pointer; }
 
 @media (max-width: 1140px) {
   .friend {
-    position: absolute;
-    z-index: 2;
     left: 17.8125vw;
     top: 3.125vw;
     width: 77.8125vw;
@@ -264,30 +257,21 @@ body {
     font-size: 4.0625vw;
     line-height: 4.375vw; }
   .sto {
-    background-image: url(img/sto_sm.svg);
-    position: absolute;
-    z-index: 2;
-    left: 2.5vw;
-    top: 49.77188vw;
-    width: 67.1875vw;
-    height: 32.58125vw; }
+    left: 3.125vw;
+    top: 49.6875vw;
+    width: 67.4875vw;
+    height: 29.375vw; }
   .logo-im {
-    position: absolute;
-    z-index: 2;
     left: 71.93125vw;
     top: 78.125vw;
     width: 20.325vw;
     height: 20.15625vw; }
   .plus {
-    position: absolute;
-    z-index: 2;
     left: 76.97187vw;
     top: 103.90625vw;
     width: 10.24687vw;
     height: 10.24687vw; }
   .logo-dc {
-    position: absolute;
-    z-index: 2;
     left: 71.5625vw;
     top: 118.07188vw;
     width: 22.13437vw;
@@ -301,101 +285,72 @@ body {
   .img13 {
     display: none; }
   .img02 {
-    position: absolute;
-    z-index: 2;
     left: 6.25vw;
     top: 93.125vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img01 {
-    position: absolute;
-    z-index: 2;
     left: 33.125vw;
     top: 152.8125vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img03 {
-    position: absolute;
-    z-index: 2;
     left: 17.8125vw;
     top: 209.0625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img05 {
-    position: absolute;
-    z-index: 2;
     left: 0vw;
     top: 272.5vw;
     width: 56.25vw;
-    height: 56.25vw;
-    z-index: 3; }
+    height: 56.25vw; }
   .img07 {
-    position: absolute;
-    z-index: 2;
     left: 40.625vw;
     top: 322.5vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img10 {
-    position: absolute;
-    z-index: 2;
     left: 6.875vw;
     top: 383.56875vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img06 {
-    position: absolute;
-    z-index: 2;
     left: 18.49063vw;
     top: 439.81875vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img09 {
-    position: absolute;
-    z-index: 2;
     left: 6.25vw;
     top: 500.75625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img14 {
-    position: absolute;
-    z-index: 2;
     left: 33.275vw;
     top: 556.875vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img16 {
-    position: absolute;
-    z-index: 2;
     left: 6.875vw;
     top: 607.00625vw;
     width: 56.25vw;
     height: 56.25vw; }
   .img15 {
-    position: absolute;
-    z-index: 2;
     left: 43.75vw;
     top: 672.63125vw;
     width: 56.25vw;
     height: 56.25vw; }
   .insta {
-    position: absolute;
-    z-index: 2;
     left: 9.59688vw;
     top: 735.04375vw;
     width: 12.51562vw;
     height: 12.51562vw; }
   .vk {
-    position: absolute;
-    z-index: 2;
     left: 25.92813vw;
     top: 741.3vw;
     width: 12.51562vw;
     height: 12.51562vw;
     margin-bottom: 14.93437vw; }
   .fb {
-    position: absolute;
-    z-index: 2;
     left: 40.52813vw;
     top: 741.3vw;
     width: 12.51562vw;

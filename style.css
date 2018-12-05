@@ -206,8 +206,7 @@ body {
   width: 21.875vw;
   height: 21.875vw;
   position: absolute;
-  z-index: 1;
-  margin-bottom: 2.23958vw; }
+  z-index: 1; }
 
 .insta {
   left: 12.39583vw;
@@ -248,7 +247,14 @@ body {
     background-image: url(img/fb_b.svg);
     cursor: pointer; }
 
-@media (max-width: 1140px) {
+.bottommargin {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 179.01042vw;
+  height: 2.23958vw; }
+
+@media (max-aspect-ratio: 768 / 1082) {
   .friend {
     left: 17.8125vw;
     top: 3.125vw;
@@ -258,7 +264,7 @@ body {
     line-height: 4.375vw; }
   .sto {
     left: 3.125vw;
-    top: 49.6875vw;
+    top: 48.75vw;
     width: 67.4875vw;
     height: 29.375vw; }
   .logo-im {
@@ -348,12 +354,14 @@ body {
     left: 25.92813vw;
     top: 741.3vw;
     width: 12.51562vw;
-    height: 12.51562vw;
-    margin-bottom: 14.93437vw; }
+    height: 12.51562vw; }
   .fb {
     left: 40.52813vw;
     top: 741.3vw;
     width: 12.51562vw;
-    height: 12.51562vw; } }
+    height: 12.51562vw; }
+  .bottommargin {
+    top: 753.81562vw;
+    height: 14.93437vw; } }
 
 /*# sourceMappingURL=style.css.map*/
